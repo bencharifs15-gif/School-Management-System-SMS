@@ -66,20 +66,23 @@ if (isset($_SESSION['admin_id']) &&
            <?=$_GET['success']?>
           </div>
         <?php } ?>
-        <div class="mb-3">
-          <label class="form-label">First name</label>
-          <input type="text" 
-                 class="form-control"
-                 value="<?=$fname?>" 
-                 name="fname">
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Last name</label>
-          <input type="text" 
-                 class="form-control"
-                 value="<?=$lname?>"
-                 name="lname">
-        </div>
+       <div class="mb-3">
+  <label class="form-label">First name</label>
+  <input type="text" 
+         class="form-control"
+         value="<?=$fname?>" 
+         name="fname"
+         placeholder="Enter teacher's first name">
+</div>
+
+<div class="mb-3">
+  <label class="form-label">Last name</label>
+  <input type="text" 
+         class="form-control"
+         value="<?=$lname?>"
+         name="lname"
+         placeholder="Enter teacher's last name">
+</div>
         <div class="mb-3">
           <label class="form-label">Username</label>
           <input type="text" 
